@@ -1,0 +1,8 @@
+@mixin button ($radius) {
+    color: #293845;
+    background: #e8833a;
+    border: #e8833a;
+    padding: $radius;
+    border-radius: $radius;
+    margin: $radius; 
+}

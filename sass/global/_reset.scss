@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import '../utilities/variable';
+
+
+body { 
+    background: $bg-principal;
+    font-family: $font-principal;
+
+}
+
+.fondo-general {
+    background-image: url(../img/impresora.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.bg-warning:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+}
+
+.bg-warning {
+    background: #e8833a !important;
+    border-radius: 10px;
+
+}
+
+
+
+.menu li a {
+    text-decoration: none;
+}
+
+

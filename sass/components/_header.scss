@@ -1,0 +1,20 @@
+header {
+    .img-navbar {
+        width: 50px;
+        height: 50px;
+    }
+    .img-title {
+        @extend .img-navbar;
+        border-radius: 25%;
+    }
+    .menu {
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 10px 15px;
+        background-image: linear-gradient(to right, #efef95, #e8833a);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,12 @@
+@use "./utilities/variable";
+@use "./utilities/extend";
+@use "./utilities/mixin";
+
+@use "./global/reset";
+
+@use "./components/footer";
+@use "./components/header";
+
+@use "./pages/main-index";
+
+@use "./utilities/media-query";

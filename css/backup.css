@@ -42,7 +42,7 @@ body {
     border-radius: 25px;
     border: 1px solid rgba(76, 74, 76, 0.2);
     object-fit: fill;
-    /* object-fit: cover; */
+    
 }
 
 .nos-section .img {
